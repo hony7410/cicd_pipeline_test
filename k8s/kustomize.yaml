@@ -1,0 +1,5 @@
+resources:
+  - ingress.yaml
+  - service.yaml
+  - rollout-canary.yaml
+namespace: cicd
