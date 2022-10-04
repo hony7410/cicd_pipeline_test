@@ -7,7 +7,6 @@ K8S 환경에서 jenkins 를 이용한 cicd 구성 샘플입니다.
 - Jenkinsfile : jenkins pipeline 소스
 - k8s : kubernetes 에 sample app 배포를 위한 resources (kustomize 사용)
 - 그 외 java source
-  - [참고소스](https://github.com/leszko/calculator)
 
 ## 환경
 
@@ -33,3 +32,4 @@ K8S 환경에서 jenkins 를 이용한 cicd 구성 샘플입니다.
 ## Reference
 
 [Argo_Rollout_Canary_Example](https://github.com/hony7410/argo-rollout-canary-sample)
+[java source](https://github.com/leszko/calculator)
