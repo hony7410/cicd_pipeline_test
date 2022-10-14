@@ -15,7 +15,7 @@ podTemplate(label: 'jenkins-slave-pod',
     ),
     containerTemplate(
       name: 'kubectl',
-      image: 'bitnami/kubectl',
+      image: 'bitnami/kubectl:1.24.3',
       command: 'cat',
       ttyEnabled: true,
       runAsUser: '0',
